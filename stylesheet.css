@@ -1,10 +1,16 @@
 body {
     padding-top: 70px;
-    background-color:#F7F1F0;
+    background-color:#2F2235
+}
+.custom-navbar .navbar-brand {
+    color: white;
+}
+.custom-navbar .nav-link{
+    color: white;
 }
 .custom-navbar {
-    background-color:papayawhip;
+    background-color:#3F3244;
 }
 #frontpagebox {
-    background-color: #C3A6A0 !important;
+    background-color: #BFC3BA !important;
 }
