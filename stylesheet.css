@@ -14,3 +14,8 @@ body {
 #frontpagebox {
     background-color: #BFC3BA !important;
 }
+.navbar-brand{
+    background-color: #BFC3BA !important;
+    padding: 5px;
+    border-radius: 15px;
+}
