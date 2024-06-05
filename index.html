@@ -44,7 +44,17 @@
       </div>
 
       <script>
-            
+            $(document).ready(function(){
+
+                $("li").hover(function(){
+                    $(this).css("background-color", "#BFC3BA")
+                },
+
+                function(){
+                    $(this).css("background-color", "#3F3244")
+                })
+
+            });
       </script>
 </body>
 </html>
