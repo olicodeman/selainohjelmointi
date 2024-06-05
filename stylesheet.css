@@ -1,7 +1,10 @@
 body {
     padding-top: 70px;
-    background-color:wheat;
+    background-color:#F7F1F0;
 }
 .custom-navbar {
-    background-color:floralwhite;
+    background-color:papayawhip;
+}
+#frontpagebox {
+    background-color: #C3A6A0 !important;
 }
