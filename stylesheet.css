@@ -4,24 +4,25 @@ body {
     
 }
 .custom-navbar .navbar-brand {
-    color: #F4FBFD;
+    color: whitesmoke;
     background-color: #60B3D1;
     border-radius: 15px;
     padding: 10px;
 }
 .custom-navbar .nav-link{
-    color: #F4FBFD;
+    color: whitesmoke;
 }
 .custom-navbar {
     background-color: #012641;
     
 }
 #frontpagebox {
-    background-color: #F4FBFD !important;
+    background-color: whitesmoke !important;
     color: black !important;
 }
 .navbar-toggler{
     background-color: #60B3D1;
 }
+
 
 
