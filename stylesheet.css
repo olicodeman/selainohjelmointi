@@ -1,22 +1,27 @@
 body {
     padding-top: 80px;
-    background-color:#012641
+    background-color:#60B3D1
+    
 }
 .custom-navbar .navbar-brand {
     color: #F4FBFD;
+    background-color: #60B3D1;
+    border-radius: 15px;
+    padding: 5px;
 }
 .custom-navbar .nav-link{
     color: #F4FBFD;
 }
 .custom-navbar {
-    background-color: #60B3D1;
+    background-color: #012641;
+    
 }
 #frontpagebox {
     background-color: #F4FBFD !important;
     color: black !important;
 }
-.navbar-brand{
-    background-color: #012641 !important;
-    padding: 5px;
-    border-radius: 15px;
+.navbar-toggler{
+    background-color: #60B3D1;
 }
+
+
