@@ -1,5 +1,5 @@
 body {
-    padding-top: 70px;
+    padding-top: 80px;
     background-color:#2F2235
 }
 .custom-navbar .navbar-brand {
@@ -13,6 +13,7 @@ body {
 }
 #frontpagebox {
     background-color: #BFC3BA !important;
+    color: black !important;
 }
 .navbar-brand{
     background-color: #BFC3BA !important;
