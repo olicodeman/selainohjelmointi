@@ -6,7 +6,7 @@ $(document).ready(function(){
     },
 
     function(){
-        $(this).css("background-color", "whitesmoke")
+        $(this).css("background-color", "white")
     })
 
 });
