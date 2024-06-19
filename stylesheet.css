@@ -2,6 +2,9 @@ body {
     padding-top: 80px;
     background-color: darkslategray;
     font-family: Roboto;
+    min-height: 100vh; 
+    overflow-y: auto; 
+    padding-bottom: 100px; 
     
     
 }
@@ -21,6 +24,7 @@ body {
 #frontpagebox {
     background-color: whitesmoke !important;
     color: black !important;
+    border-radius: 30px;
 }
 .navbar-toggler{
     background-color: darkslategray;
@@ -34,7 +38,36 @@ h2, h3{
 p {
     font-size: 12px;
 }
+.carousel-item {
+    text-align: center;
+  }
+  .carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 3px solid #ddd;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .image-grid img {
+    display: block;
+    width: 300px;
+    height: 150px;
+    margin-top: 75px;
+    transition: transform 0.3s ease-in-out;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #ddd;
+  }
+  
+ 
 
+  
 
 
 

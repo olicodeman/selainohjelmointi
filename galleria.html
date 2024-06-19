@@ -41,32 +41,24 @@
   </nav>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-    </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="interior1.jpg" class="d-block w-100" alt="...">
+        <img src="interior1.jpg" class="d-block w-50" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="interior2.jpg" class="d-block w-100" alt="...">
+        <img src="interior2.jpg" class="d-block w-50" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="interior3.jpg" class="d-block w-100" alt="...">
+        <img src="interior3.jpg" class="d-block w-50" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="interior4.jpg" class="d-block w-100" alt="...">
+        <img src="interior4.jpg" class="d-block w-50" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="interior5.jpg" class="d-block w-100" alt="...">
+        <img src="interior5.jpg" class="d-block w-50" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="interior6.jpg" class="d-block w-100" alt="...">
+        <img src="interior6.jpg" class="d-block w-50" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -78,6 +70,32 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+  <div class="container">
+    <div class="image-grid">
+      <div class="image-item">
+        <img src="interior7.jpg" alt="...">
+      </div>
+      <div class="image-item">
+        <img src="interior8.jpg" alt="...">
+      </div>
+      <div class="image-item">
+        <img src="interior9.jpg" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function() { // hover over pictures to enlargen them
+      $(".image-grid img").hover(function(){
+        $(this).css("transform", "scale(1.1)")
+      },
+      function() {
+        $(this).css("transform", "scale(1)")
+      })
+    });
+
+  </script>
   
 </body>
 </html>
