@@ -76,11 +76,7 @@ p {
     
 }
 
-@media (max-width: 576px) {
-    .footer {
-        padding: 10px;
-    }
-}
+
 .fa {
     padding: 20px;
     width: 30px;
@@ -123,6 +119,28 @@ p {
     padding: 20px; 
     max-width: 500px; 
     margin: 0 auto; 
+}
+
+/*Button for showing map*/
+#show-google-map { 
+    background-color: lightseagreen; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+.button-container{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#map-container{
+    display: none;
+    margin-top: 20px;
+    text-align: center;
 }
 
   

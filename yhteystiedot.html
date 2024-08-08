@@ -57,6 +57,18 @@
         <p class="contactdetails">info@kotkantienmaalaus.fi</p>
     </div>
 </div>
+    
+    <div class="button-container">
+      <button id="show-google-map">Avaa osoite Google Maps:ssä</button>
+    </div>
+
+    <div id="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.1751890775454!2d25.50822655676974!3d65.00130703064521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723112728445!5m2!1sen!2sfi" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    
+  </div>
 
 <br><br>
 
@@ -114,6 +126,12 @@
       
 
     }
+
+    document.getElementById("show-google-map").addEventListener("click", function(){ // Display the map when the button is clicked
+      var mapContainer = document.getElementById("map-container")
+        mapContainer.style.display = "block";
+        this.style.display = "none";
+    });
   </script>
   
 </body>
