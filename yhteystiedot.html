@@ -41,48 +41,56 @@
     </div>
   </nav>
 
-  <div style="text-align: center;">
-    <h1 style="color: whitesmoke;">Yhteystiedot</h1>
-    <p style="color: whitesmoke;">Osoite:</p>
-    <p class="contactdetails">Kotkantie 3, 90100 Oulu</p>
+  <h1 style="color: whitesmoke; text-align: center;">Yhteystiedot</h1>
     <br>
-    <p style="color: whitesmoke;">Puhelin:</p>
-    <p class="contactdetails">044 999 888 99</p>
-    <br>
-    <p style="color: whitesmoke;">Sähköposti:</p>
-    <p class="contactdetails">info@kotkantienmaalaus.fi</p>
-  </div>
 
-  <br><br>
-
-  <form id="formcontact" onsubmit="return validateForm()">
-    <div class="form-group">
-      <h3>Yhteydenottolomake</h3>
-      <br>
-      <label for="firstname">Etunimi: *</label>
-      <input id="firstname" type="text" class="form-sections" required>
-      <br><br>
-      
-      <label for="lastname">Sukunimi: *</label>
-      <input id="lastname" type="text" class="form-sections" required>
-      <br><br>
-
-      <label for="emailinput">Sähköposti: *</label>
-      <input id="emailinput" type="email" placeholder="name@example.com" class="form-sections" required>
-      <br><br>
-
-      <label for="subject-info">Aihe: *</label>
-      <textarea id="subject-info" placeholder="Kerro yhteydenoton aiheesta..." cols="50" rows="5" required></textarea>
-      <br><br>
-
-      <label for="form-comment">Lisäkommentit: </label>
-      <br>
-      <textarea id="form-comment" placeholder="Lisää halutessasi kommentti..." cols="30" rows="3"></textarea>
-      <br><br>
-      <button id="button-send" type="submit">Lähetä</button>
-
+  <div class="contstyle" style="text-align: center;">
+    <div class="contact-item">
+        <p style="color: whitesmoke;">Osoite:</p>
+        <p class="contactdetails">Kotkantie 3, 90100 Oulu</p>
     </div>
-  </form>
+    <div class="contact-item">
+        <p style="color: whitesmoke;">Puhelin:</p>
+        <p class="contactdetails">044 999 888 99</p>
+    </div>
+    <div class="contact-item">
+        <p style="color: whitesmoke;">Sähköposti:</p>
+        <p class="contactdetails">info@kotkantienmaalaus.fi</p>
+    </div>
+</div>
+
+<br><br>
+
+<form id="formcontact" onsubmit="return validateForm()">
+  <div class="form-group">
+    <h3>Yhteydenottolomake</h3>
+    <br>
+    <label for="firstname">Etunimi: *</label>
+    <input id="firstname" type="text" class="form-sections" required>
+    <br><br>
+    
+    <label for="lastname">Sukunimi: *</label>
+    <input id="lastname" type="text" class="form-sections" required>
+    <br><br>
+
+    <label for="emailinput">Sähköposti: *</label>
+    <input id="emailinput" type="email" placeholder="name@example.com" class="form-sections" required>
+    <br><br>
+
+    <label for="subject-info">Aihe: *</label>
+    <textarea id="subject-info" placeholder="Kerro yhteydenoton aiheesta..." cols="50" rows="5" required></textarea>
+    <br><br>
+
+    <label for="form-comment">Lisäkommentit: </label>
+    <br>
+    <textarea id="form-comment" cols="30" rows="3"></textarea>
+    <br><br>
+    <button id="button-send" type="submit">Lähetä</button>
+
+  </div>
+</form>
+
+  
 
   <footer class="footer">
     <div class="container">
@@ -93,10 +101,10 @@
   </footer>
 
   <script> // Form validation script
-    function validateForm() {
-      let subject = document.forms ["formcontact"] ["subject-info"].value;
+    function validateForm() { // Validates subject length 
+      let subject = document.forms["formcontact"]["subject-info"].value;
 
-      if (subject.value.length < 25) {
+      if (subject.length < 30) {
         alert("Sisällytä enemmän tietoa aiheestasi")
         return false;
       }
