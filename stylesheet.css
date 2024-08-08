@@ -4,7 +4,7 @@ body {
     font-family: Roboto;
     min-height: 100vh; 
     overflow-y: auto; 
-    padding-bottom: 100px; 
+    padding-bottom: 100px;
     
     
 }
@@ -75,6 +75,12 @@ p {
     left: 0;
     
 }
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 10px;
+    }
+}
 .fa {
     padding: 20px;
     width: 30px;
@@ -85,7 +91,7 @@ p {
   }
   .fa-instagram {
   color: deeppink;
-  margin-left: 775px;
+  
 }
 .contactdetails {
     font: black !important;
