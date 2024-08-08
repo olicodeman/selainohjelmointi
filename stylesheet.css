@@ -87,6 +87,14 @@ p {
   color: #333;
   margin-left: 775px;
 }
+.contactdetails {
+    font: black !important;
+    background-color: whitesmoke !important;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    
+}
   
  
 
