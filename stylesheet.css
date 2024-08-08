@@ -19,6 +19,7 @@ body {
 }
 .custom-navbar {
     background-color: white;
+    position: absolute;
     
 }
 #frontpagebox {
