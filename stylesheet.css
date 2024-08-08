@@ -95,6 +95,15 @@ p {
     display: inline-block;
     
 }
+#formcontact{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 20px; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
   
  
 
