@@ -186,6 +186,9 @@ p {
   .color-btn:hover {
     transform: scale(1.1);
   }
+  .color-btn2:hover {
+    transform: scale(1.1);
+  }
 
   
  
