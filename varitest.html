@@ -48,7 +48,6 @@
   </div>
 
 <div class="svg-container">
-  <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024" width="600" height="500">
   <defs>
     <style>
@@ -85,8 +84,8 @@
       }
     </style>
   </defs>
-  <rect class="cls-8" y="627" width="1280" height="397"/>
-  <rect class="cls-6" width="1280" height="627"/>
+  <rect id="floor" class="cls-8" y="627" width="1280" height="397"/>
+  <rect id="wall" class="cls-6" width="1280" height="627"/>
   <g>
     <g>
       <rect class="cls-4" x="287" y="744" width="31" height="154"/>
@@ -111,45 +110,51 @@
 
   <h1 style="text-align: center; color: whitesmoke;">Seinä:</h1>
   <div id="color-palette">
-    <button class="color-btn" data="#DD4132" style="background-color: #DD4132;"></button>
-    <button class="color-btn" data="#9E1030" style="background-color: #9E1030;"></button>
-    <button class="color-btn" data="#FE840E" style="background-color: #FE840E;"></button>
-    <button class="color-btn" data="#FF6F61" style="background-color: #FF6F61;"></button>
-    <button class="color-btn" data="#C62168" style="background-color: #C62168;"></button>
-    <button class="color-btn" data="#8D9440" style="background-color: #8D9440;"></button>
-    <button class="color-btn" data="#FFD662" style="background-color: #FFD662;"></button>
-    <button class="color-btn" data="#00539C" style="background-color: #00539C;"></button>
-    <button class="color-btn" data="#755139" style="background-color: #755139;"></button>
-    <button class="color-btn" data="#D69C2F" style="background-color: #D69C2F;"></button>
-    <button class="color-btn" data="#616247" style="background-color: #616247;"></button>
-    <button class="color-btn" data="#E8B5CE" style="background-color: #E8B5CE;"></button>
-    <button class="color-btn" data="#D2C29D" style="background-color: #D2C29D;"></button>
-    <button class="color-btn" data="#343148" style="background-color: #343148;"></button>
-    <button class="color-btn" data="#F0EAD6" style="background-color: #F0EAD6"></button>
-    <button class="color-btn" data="#615550" style="background-color: #615550"></button>
+    <button class="color-btn" data-color="#DD4132" style="background-color: #DD4132;"></button>
+    <button class="color-btn" data-color="#9E1030" style="background-color: #9E1030;"></button>
+    <button class="color-btn" data-color="#FE840E" style="background-color: #FE840E;"></button>
+    <button class="color-btn" data-color="#FF6F61" style="background-color: #FF6F61;"></button>
+    <button class="color-btn" data-color="#C62168" style="background-color: #C62168;"></button>
+    <button class="color-btn" data-color="#8D9440" style="background-color: #8D9440;"></button>
+    <button class="color-btn" data-color="#FFD662" style="background-color: #FFD662;"></button>
+    <button class="color-btn" data-color="#00539C" style="background-color: #00539C;"></button>
+    <button class="color-btn" data-color="#755139" style="background-color: #755139;"></button>
+    <button class="color-btn" data-color="#D69C2F" style="background-color: #D69C2F;"></button>
+    <button class="color-btn" data-color="#616247" style="background-color: #616247;"></button>
+    <button class="color-btn" data-color="#E8B5CE" style="background-color: #E8B5CE;"></button>
+    <button class="color-btn" data-color="#D2C29D" style="background-color: #D2C29D;"></button>
+    <button class="color-btn" data-color="#343148" style="background-color: #343148;"></button>
+    <button class="color-btn" data-color="#F0EAD6" style="background-color: #F0EAD6"></button>
+    <button class="color-btn" data-color="#615550" style="background-color: #615550"></button>
   </div>
 
     <br>
 
     <h1 style="text-align: center; color: whitesmoke;">Lattia:</h1>
-  <div id="color-palette">
-    <button class="color-btn" data="#DD4132" style="background-color: #DD4132;"></button>
-    <button class="color-btn" data="#9E1030" style="background-color: #9E1030;"></button>
-    <button class="color-btn" data="#FE840E" style="background-color: #FE840E;"></button>
-    <button class="color-btn" data="#FF6F61" style="background-color: #FF6F61;"></button>
-    <button class="color-btn" data="#C62168" style="background-color: #C62168;"></button>
-    <button class="color-btn" data="#8D9440" style="background-color: #8D9440;"></button>
-    <button class="color-btn" data="#FFD662" style="background-color: #FFD662;"></button>
-    <button class="color-btn" data="#00539C" style="background-color: #00539C;"></button>
-    <button class="color-btn" data="#755139" style="background-color: #755139;"></button>
-    <button class="color-btn" data="#D69C2F" style="background-color: #D69C2F;"></button>
-    <button class="color-btn" data="#616247" style="background-color: #616247;"></button>
-    <button class="color-btn" data="#E8B5CE" style="background-color: #E8B5CE;"></button>
-    <button class="color-btn" data="#D2C29D" style="background-color: #D2C29D;"></button>
-    <button class="color-btn" data="#343148" style="background-color: #343148;"></button>
-    <button class="color-btn" data="#F0EAD6" style="background-color: #F0EAD6"></button>
-    <button class="color-btn" data="#615550" style="background-color: #615550"></button>
+  <div id="color-palette2">
+    <button class="color-btn2" data-colorF="#DD4132" style="background-color: #DD4132;"></button>
+    <button class="color-btn2" data-colorF="#9E1030" style="background-color: #9E1030;"></button>
+    <button class="color-btn2" data-colorF="#FE840E" style="background-color: #FE840E;"></button>
+    <button class="color-btn2" data-colorF="#FF6F61" style="background-color: #FF6F61;"></button>
+    <button class="color-btn2" data-colorF="#C62168" style="background-color: #C62168;"></button>
+    <button class="color-btn2" data-colorF="#8D9440" style="background-color: #8D9440;"></button>
+    <button class="color-btn2" data-colorF="#FFD662" style="background-color: #FFD662;"></button>
+    <button class="color-btn2" data-colorF="#00539C" style="background-color: #00539C;"></button>
+    <button class="color-btn2" data-colorF="#755139" style="background-color: #755139;"></button>
+    <button class="color-btn2" data-colorF="#D69C2F" style="background-color: #D69C2F;"></button>
+    <button class="color-btn2" data-colorF="#616247" style="background-color: #616247;"></button>
+    <button class="color-btn2" data-colorF="#E8B5CE" style="background-color: #E8B5CE;"></button>
+    <button class="color-btn2" data-colorF="#D2C29D" style="background-color: #D2C29D;"></button>
+    <button class="color-btn2" data-colorF="#343148" style="background-color: #343148;"></button>
+    <button class="color-btn2" data-colorF="#F0EAD6" style="background-color: #F0EAD6"></button>
+    <button class="color-btn2" data-colorF="#615550" style="background-color: #615550"></button>
   </div>
+
+  <br>
+  
+  <div style="text-align: center;">
+    <button onclick="colorReset()">Nollaa värit</button>
+    </div>
 
   <footer class="footer">
     <div class="container">
@@ -161,7 +166,35 @@
 
 
   <script>
+    function updateColorWall(color) { // WALL COLOR PALETTE
+        var wall = document.getElementById("wall");
+        wall.style.fill = color;
+    } 
+    var colorButtons = document.querySelectorAll('#color-palette .color-btn');
+    colorButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            var color = this.getAttribute('data-color');
+            updateColorWall(color);
+        });
+    });
 
+
+    function updateColorFloor(color2) { // FLOOR COLOR PALETTE
+        var floor = document.getElementById("floor");
+        floor.style.fill = color2;
+    }
+    var colorButtons2 = document.querySelectorAll('#color-palette2 .color-btn2');
+    colorButtons2.forEach(function(button) {
+        button.addEventListener('click', function() {
+            var color2 = this.getAttribute('data-colorF');
+            updateColorFloor(color2);
+        });
+    });
+
+    function colorReset() {
+      wall.style.fill = "#5b5332";
+      floor.style.fill = "#afa58b"
+    }
   </script>
 </body>
 </html>
