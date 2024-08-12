@@ -16,11 +16,21 @@ body {
 }
 .custom-navbar .nav-link{
     color: black;
+    padding: 5px 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    transition: color 0.01s ease;
+  
+}
+.custom-navbar .nav-link.active {
+  background-color: darkslategray;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: white !important;
 }
 .custom-navbar {
     background-color: white;
-    position: absolute;
-    
+    position: absolute;  
 }
 #frontpagebox {
     background-color: whitesmoke !important;
@@ -186,6 +196,7 @@ svg {
     text-align: center;
     color: white;
 }
+
 
   
  
