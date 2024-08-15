@@ -103,7 +103,7 @@ p {
   
 }
 .fa-youtube:hover, .fa-instagram:hover{
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .contactdetails {
     font: black !important;
