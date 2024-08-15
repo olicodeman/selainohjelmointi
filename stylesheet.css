@@ -103,7 +103,7 @@ p {
   
 }
 .fa-youtube:hover, .fa-instagram:hover{
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .contactdetails {
     font: black !important;
@@ -175,8 +175,6 @@ p {
     border-style: solid;
     transition: transform 0.3s;
   }
-  
-  
   .color-btn:hover, .color-btn2:hover {
     transform: scale(1.2);
   }
@@ -190,7 +188,8 @@ svg {
   height: 100vh;
   background-color: darkslategray; 
   margin-left: 275px;
-  margin-right: 275px ;
+  margin-right: 275px;
+  border-radius: 20px;
   
 }
 .colorbtn-palette {
@@ -200,6 +199,12 @@ svg {
   text-align: center; /* Center text within the container */
   
   
+}
+.resetbtn{
+  transition: transform 0.3s ease;
+}
+.resetbtn:hover{
+  transform: scale(1.1);
 }
 .main-title{
   font-size: 2.5em;
