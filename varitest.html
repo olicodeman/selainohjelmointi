@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="hoverfunc.js"></script>
 </head>
-<body>
+<body style="background-color: whitesmoke;">
   <nav class="navbar navbar-expand-sm custom-navbar fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Kotkantien maalaus ja tapetointi</a>
@@ -41,36 +41,14 @@
     </div>
   </nav>
 
-  <h1 class="main-title">Värientestaus</h1>
-  <div style="text-align: center; color: black; background-color: whitesmoke; border-radius: 20px; padding: 15px; max-width: 700px; margin: 0 auto;">
-    <h3 style="display: inline-block;">Täällä voit muokata kuvan väriyhdistelmiä löytääksesi haluamasi tyylin omalle kodillesi.</h3>
-    <br>
-    <h3 style="display: inline-block;">Väripaletit löytyvät kuvan vierestä. Kuvassa olevan seinän sekä lattian väriä voi muokata.</h3>
+  <h1 class="main-title" style="color: black;">Värientestaus ja suunnittelu</h1>
+  <div style="text-align: center; color: white; background-color: darkslategray; border-radius: 20px; padding: 15px; max-width: 700px; margin: 0 auto;">
+    <h3 style="display: inline-block;">Väritestarin avulla voit suunnitella sopivan tyylin omalle kodillesi. Väripaletit löytyvät kuvan vierestä. Kuvassa olevan seinän sekä lattian väriä voi muokata.</h3>
   </div>
 
-<div class="flex-container">
-  <h1 style="text-align: center; color: whitesmoke;">Seinä</h1>
-  <div id="color-palette" class="color-palette-vertical">
-    <button class="color-btn" data-color="#DD4132" style="background-color: #DD4132;"></button>
-    <button class="color-btn" data-color="#9E1030" style="background-color: #9E1030;"></button>
-    <button class="color-btn" data-color="#FE840E" style="background-color: #FE840E;"></button>
-    <button class="color-btn" data-color="#FF6F61" style="background-color: #FF6F61;"></button>
-    <button class="color-btn" data-color="#C62168" style="background-color: #C62168;"></button>
-    <button class="color-btn" data-color="#8D9440" style="background-color: #8D9440;"></button>
-    <button class="color-btn" data-color="#FFD662" style="background-color: #FFD662;"></button>
-    <button class="color-btn" data-color="#00539C" style="background-color: #00539C;"></button>
-    <button class="color-btn" data-color="#755139" style="background-color: #755139;"></button>
-    <button class="color-btn" data-color="#D69C2F" style="background-color: #D69C2F;"></button>
-    <button class="color-btn" data-color="#616247" style="background-color: #616247;"></button>
-    <button class="color-btn" data-color="#E8B5CE" style="background-color: #E8B5CE;"></button>
-    <button class="color-btn" data-color="#D2C29D" style="background-color: #D2C29D;"></button>
-    <button class="color-btn" data-color="#343148" style="background-color: #343148;"></button>
-    <button class="color-btn" data-color="#F0EAD6" style="background-color: #F0EAD6"></button>
-    <button class="color-btn" data-color="#615550" style="background-color: #615550"></button>
-  </div>
-
+  <br>
 <div class="svg-container">
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024" width="600" height="500">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024" width="800" height="500">
   <defs>
     <style>
       .cls-1 {
@@ -129,10 +107,30 @@
   </g>
 </svg>
 </div>
+<div class="colorbtn-palette">
+<h1 style="color: black; text-align: center;">Seinä:</h1>
+  <div id="color-palette" class="color-palette-symmetric">
+    <button class="color-btn" data-color="#DD4132" style="background-color: #DD4132;"></button>
+    <button class="color-btn" data-color="#9E1030" style="background-color: #9E1030;"></button>
+    <button class="color-btn" data-color="#FE840E" style="background-color: #FE840E;"></button>
+    <button class="color-btn" data-color="#FF6F61" style="background-color: #FF6F61;"></button>
+    <button class="color-btn" data-color="#C62168" style="background-color: #C62168;"></button>
+    <button class="color-btn" data-color="#8D9440" style="background-color: #8D9440;"></button>
+    <button class="color-btn" data-color="#FFD662" style="background-color: #FFD662;"></button>
+    <button class="color-btn" data-color="#00539C" style="background-color: #00539C;"></button>
+    <button class="color-btn" data-color="#755139" style="background-color: #755139;"></button>
+    <button class="color-btn" data-color="#D69C2F" style="background-color: #D69C2F;"></button>
+    <button class="color-btn" data-color="#616247" style="background-color: #616247;"></button>
+    <button class="color-btn" data-color="#E8B5CE" style="background-color: #E8B5CE;"></button>
+    <button class="color-btn" data-color="#D2C29D" style="background-color: #D2C29D;"></button>
+    <button class="color-btn" data-color="#343148" style="background-color: #343148;"></button>
+    <button class="color-btn" data-color="#F0EAD6" style="background-color: #F0EAD6"></button>
+    <button class="color-btn" data-color="#615550" style="background-color: #615550"></button>
+  </div>
 
   
-    
-  <div id="color-palette2" class="color-palette-vertical">
+  <h1 style="color: black; text-align: center;">Lattia:</h1> 
+  <div id="color-palette2" class="color-palette-symmetric">
     <button class="color-btn2" data-colorF="#DD4132" style="background-color: #DD4132;"></button>
     <button class="color-btn2" data-colorF="#9E1030" style="background-color: #9E1030;"></button>
     <button class="color-btn2" data-colorF="#FE840E" style="background-color: #FE840E;"></button>
@@ -150,14 +148,13 @@
     <button class="color-btn2" data-colorF="#F0EAD6" style="background-color: #F0EAD6"></button>
     <button class="color-btn2" data-colorF="#615550" style="background-color: #615550"></button>
   </div>
-  <h1 style="text-align: center; color: whitesmoke;">Lattia</h1>
+
+  <div style="text-align: center; border-radius: 10px;">
+    <button onclick="colorReset()">Nollaa värit</button>
+  </div>
 </div>
 
   
-  
-  <div style="text-align: center;">
-    <button onclick="colorReset()">Nollaa värit</button>
-    </div>
 
   <footer class="footer">
     <div class="container">
