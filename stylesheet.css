@@ -159,18 +159,18 @@ p {
     align-items: center;
     margin: 0 20px;
     border-radius: 20px;
-    background-color: white;
     padding: 10px;
 }
   
   .color-btn, .color-btn2 {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     margin: 3px;
     border: none;
     cursor: pointer;
     outline: none;
     border-radius: 50%;
+    border-style: solid;
     transition: transform 0.3s;
   }
   
@@ -195,6 +195,62 @@ svg {
     margin-bottom: 20px;
     text-align: center;
     color: white;
+}
+
+/* COLOR TEST PAGE SCALING */
+@media screen and (max-width: 768px) {
+  /* Adjust margins and layout for smaller screens */
+  .color-palette-vertical {
+      margin: 0 10px;
+      padding: 5px;
+      max-width: 100%;
+  }
+
+  .color-btn, .color-btn2 {
+      width: 30px;
+      height: 30px;
+  }
+
+  .flex-container {
+      margin-top: 30px; 
+      padding: 0 5px; 
+  }
+
+  svg {
+      margin: 0 5px;
+      width: 100%;
+      
+  }
+  .main-title{
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .color-btn, .color-btn2 {
+      width: 25px;
+      height: 25px;
+  }
+
+  .flex-container {
+      margin-top: 20px; /* Further reduce top margin */
+  }
+
+  .color-palette-vertical {
+    margin: 0 10px;
+    max-width: 100%;
+}
+
+  svg {
+    margin: 0 5px;
+    width: 100%;
+    
+}
+.main-title{
+  font-size: 1.5em;
+}
+  
 }
 
 
