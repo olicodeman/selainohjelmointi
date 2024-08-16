@@ -38,6 +38,21 @@ body {
     color: black !important;
     border-radius: 30px;
 }
+.hpbtn{ /* Homescreen buttons + hover */
+  background-color: darkslategray;
+  color: white;
+  border: 2px solid black; /* Make sure the border is visible */
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block; /* Ensure it behaves like a button */
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+.hpbtn:hover {
+  transform: scale(1.1);
+}
 .navbar-toggler{
     background-color: darkslategray;
 }
@@ -213,6 +228,13 @@ svg {
     margin-bottom: 20px;
     text-align: center;
     color: white;
+}
+.palvelut-text{
+  background-color: whitesmoke;
+  border-radius: 15px;
+  color: black;
+  margin: 10px;
+  padding: 5px;
 }
 
 /* COLOR TEST PAGE SCALING */
