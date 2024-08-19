@@ -81,19 +81,21 @@
   <div class="container">
     <div class="image-grid">
       <div class="image-item">
-        <img src="interior7.jpg" alt="...">
+        <img src="interior7.jpg" alt="..." data-image="interior7.jpg">
       </div>
       <div class="image-item">
-        <img src="interior8.jpg" alt="...">
+        <img src="interior8.jpg" alt="..." data-image="interior8.jpg">
       </div>
       <div class="image-item">
-        <img src="interior9.jpg" alt="...">
+        <img src="interior9.jpg" alt="..." data-image="interior9.jpg">
       </div>
     </div>
   </div>
 
-  
-  
+  <div id="overlay" class="overlay">
+    <span id="close" class="close">&times;</span>
+    <img id="fullsize" src="" alt="Full Size Image">
+  </div>
 
   <footer class="footer">
     <div class="container">
@@ -113,7 +115,33 @@
       })
     });
 
-    
+    // When image in grid is clicked. Make it larger for viewing.
+    document.addEventListener('DOMContentLoaded', () => {
+    const overlay = document.getElementById('overlay');
+    const fullsizeImage = document.getElementById('fullsize');
+    const closeButton = document.getElementById('close');
+
+    // Add click event listeners to all images in the grid
+    document.querySelectorAll('.image-grid .image-item img').forEach(img => {
+        img.addEventListener('click', (event) => {
+            const imagePopUp = event.target.getAttribute('data-image');
+            fullsizeImage.src = imagePopUp;
+            overlay.style.display = 'flex';
+        });
+    });
+
+    // Close overlay when clicking the close button
+    closeButton.addEventListener('click', () => {
+        overlay.style.display = 'none';
+    });
+
+    // Close overlay when clicking outside of the image 
+    overlay.addEventListener('click', (event) => {
+      if (event.target === overlay) {
+        overlay.style.display = "none";
+      }
+    });
+});
 
     
 
