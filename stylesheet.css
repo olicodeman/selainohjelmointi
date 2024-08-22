@@ -328,9 +328,17 @@ svg {
   font-size: 1.5em;
 }
 .navbar-brand {
-  font-size: 1.0rem; /* Smaller font size */
+  font-size: 0.90rem; /* Smaller font size */
   padding: 2px 5px;   /* Tighter padding */
   line-height: 1;     /* Adjust line height if necessary */
+}
+footer {
+  padding: 5px 0; /* Reduce padding */
+}
+
+.fa {
+  padding: 10px; /* Reduce padding */
+  width: 20px; /* Reduce icon size */
 }
 }
 
