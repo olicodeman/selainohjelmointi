@@ -13,5 +13,4 @@ Galleriasta löytyy kattavia kuvia maalaus- ja tapetointitöistä ja tyyleistä.
 <h3>Yhteystiedot</h3>
 Yhteystiedoista löytyy yrityksen sähköpostiosoite, puhelinnumero sekä osoite. Sivulle on myös upotettu Google Maps koodi, jonka voi avata painamalle painiketta. Painike avaa Google Maps:n iFrame:n yhteystietojen alle, joka näyttää kyseisen osoitteen. Viimeisenä sivulta löytyy yhteydenottolomake, jolla voit ottaa yhteyttä yritykseen (Ei ole toimiva eli tietoja ei lähetetä minnekkään). 
 
-
-<p>Kaikilta sivuilta löytyy myös navigointipalkki ja footer. Sivut skaalautuu hyvin myös mobiililaitteilla.</p>
+Kaikilta sivuilta löytyy myös navigointipalkki ja footer. Sivut skaalautuu hyvin myös mobiililaitteilla.
