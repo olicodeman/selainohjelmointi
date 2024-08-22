@@ -7,8 +7,9 @@ Palvelut-sivulta löytyy yksityiskohtaista tietoa Kotkantien maalaus- ja tapetoi
 
 <h3>Väritesti</h3>
 Väritesti-osiossa voi käydä suunnittelemassa huoneen seinän ja lattian tyyliä. Sivulla on SVG-kuva, jonka kahden pinnan (seinän ja lattian) väriä pystyy muokata kahden väripaletin avulla. Yksi väripaletti seinälle ja toinen lattialle. Väripalettejen alta löytyy myös painike, jolla saadaan valitut värit poistettua pinnoilta.
-<h3>Galleria</h3>
 
+<h3>Galleria</h3>
+Galleriasta löytyy kattavia kuvia maalaus- ja tapetointitöistä ja tyyleistä. Sivulla on yhteensä yhdeksän kuvaa. Kuusi ensimmäistä kuvaa on kuvakarusellissa. Kuvakarusellilla on seitsemän sekunnin aikaraja, ennen kuin karuselli siirty seuraavaan kuvaan. Kuvakarusellin alla on myös kuvagridi, joka sisältää kolme kuvaa. Kuva isontuu, kun hiiren vie niiden päälle. Kuvagridin kuvia voi myös painaa, joka isontaa kuvan katseltavaksi. Kuvan voi sulkea painamalla 'X'-nappia tai kuvan overlay taustaa.
 <h3>Yhteystiedot</h3>
 
-Kaikilta sivuilta löytyy myös navigointipalkki ja footer.
+Kaikilta sivuilta löytyy myös navigointipalkki ja footer. Sivut skaalautuu hyvin myös mobiililaitteilla.
