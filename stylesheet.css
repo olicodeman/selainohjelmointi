@@ -327,7 +327,10 @@ svg {
 .main-title{
   font-size: 1.5em;
 }
-  
+.navbar-brand {
+  font-size: 1rem; /* Adjust the size as needed */
+  padding: 5px 10px; /* Reduce padding if needed */
+}
 }
 
 
